@@ -19,10 +19,8 @@
 .footer-adress {
   font-style: normal;
 }
-// .footer-adress .mail //
-&:hover,
-// .footer-adress .mail& //
-&:focus {
+.footer-adress .mail :hover,
+.footer-adress .mail:focus {
   color: $accent-text;
 }
 .address-text {
@@ -43,10 +41,8 @@
 .link-adress {
   margin-top: 8px;
 }
-// .address-text a
-&:hover,
-// .address-text a
-&:focus {
+.address-text a:hover,
+.address-text a:focus {
   color: $accent-text;
 }
 .mail {

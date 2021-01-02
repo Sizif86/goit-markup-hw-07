@@ -15,8 +15,8 @@
   transition: border $time-animation $time-function,
     color $time-animation $time-function;
 }
-&:hover,
-&:focus {
+.item-logo:hover,
+.item-logo:focus {
   fill: $accent-text;
   border-color: $accent-text;
 }

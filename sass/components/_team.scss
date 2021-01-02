@@ -18,8 +18,7 @@
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
 }
-// .team-list
-&:not(:last-child) {
+.team-list:not(:last-child) {
   width: calc((100% - 30px) / 4);
   margin-right: 30px;
 }
@@ -55,8 +54,8 @@
     color $time-animation $time-function;
 }
 
-&:hover,
-&:focus {
+.social-networks:hover,
+.social-networks:focus {
   fill: $primary-white-color;
   background-color: $accent-text;
 }
