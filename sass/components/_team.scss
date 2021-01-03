@@ -52,12 +52,12 @@
   fill: currentColor;
   transition: background-color $time-animation $time-function,
     color $time-animation $time-function;
-}
 
-.social-networks:hover,
-.social-networks:focus {
-  fill: $primary-white-color;
-  background-color: $accent-text;
+  &:hover,
+  &:focus {
+    fill: $primary-white-color;
+    background-color: $accent-text;
+  }
 }
 .social-list {
   display: flex;

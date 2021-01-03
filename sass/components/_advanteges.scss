@@ -1,22 +1,16 @@
-.section {
-  padding-bottom: 95px;
+// .icon {
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 70px;
+//   height: 70px;
+// }
+.about-us-list {
+  display: flex;
 }
-.section-head {
-  color: $primary-white-color;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  margin-top: 0px;
-  margin-bottom: 30px;
-}
-.icon {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70px;
-  height: 70px;
+.content-box {
+  margin-right: 30px;
+  width: calc((100% - 30px * 3) / 4);
 }
 .background-icon {
   display: flex;

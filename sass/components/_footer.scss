@@ -18,10 +18,11 @@
 }
 .footer-adress {
   font-style: normal;
-}
-.footer-adress .mail :hover,
-.footer-adress .mail:focus {
-  color: $accent-text;
+
+  & .mail:hover,
+  & .mail:focus {
+    color: $accent-text;
+  }
 }
 .address-text {
   font-family: Roboto, sans-serif;
@@ -29,11 +30,15 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  & a:hover,
+  & a:focus {
+    color: $accent-text;
+  }
+  & a {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
-.address-text a {
-  color: rgba(255, 255, 255, 0.6);
-}
 .adress {
   color: $primary-white-color;
   font-size: 14px;
@@ -41,10 +46,7 @@
 .link-adress {
   margin-top: 8px;
 }
-.address-text a:hover,
-.address-text a:focus {
-  color: $accent-text;
-}
+
 .mail {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71x;
@@ -59,13 +61,13 @@
 .social-list .item-social + .item-social {
   margin-left: 10px;
 }
-b {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+// b {
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   letter-spacing: 0.03em;
+//   text-transform: uppercase;
+// }
 .img-footer {
   background: rgba(255, 255, 255, 0.1);
   color: $primary-white-color;

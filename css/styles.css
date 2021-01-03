@@ -51,10 +51,6 @@ a {
   align-items: center;
   /* border: 1px solid #ececec; */
 }
-.content-box {
-  margin-right: 30px;
-  width: calc((100% - 30px * 3) / 4);
-}
 
 .about-us-list {
   display: flex;
@@ -173,7 +169,7 @@ p {
 .site-nav .link:focus {
   color: var(--accent-text);
 }
-.adress {
+.address {
   margin-left: auto;
   font-style: normal;
 }
@@ -254,6 +250,13 @@ p {
   letter-spacing: 0.06em;
   margin-top: 0px;
   margin-bottom: 30px;
+}
+.about-us-list {
+  display: flex;
+}
+.content-box {
+  margin-right: 30px;
+  width: calc((100% - 30px * 3) / 4);
 }
 .icon {
   display: block;
