@@ -1,14 +1,14 @@
 @import "./base/normalize";
-@import "./base/container";
 @import "./base/base";
 @import "./utils/variables";
+@import "./base/container";
+@import "./components/site-nav";
 @import "./components/header-address";
 @import "./components/hero";
 @import "./components/advanteges";
-@import "./components/site-nav";
 @import "./components/services";
 @import "./components/team";
 @import "./components/clients";
 @import "./components/footer";
-@import "./components/portfolio";
 @import "./components/modal-window";
+@import "./components/portfolio";
