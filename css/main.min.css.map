@@ -11,11 +11,11 @@
         "../sass/components/_hero.scss",
         "../sass/components/_advanteges.scss",
         "../sass/components/_services.scss",
-        "../sass/components/_team.scss",
-        "../sass/components/_clients.scss",
+        "../sas/components/_clients.scss",
         "../sass/components/_portfolio.scss",
         "../sass/components/_modal-window.scss"
     ],
     "names": [],
     "file": "main.min.css"
-}
+}s/components/_team.scss",
+        "../sass
