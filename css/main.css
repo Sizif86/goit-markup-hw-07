@@ -143,6 +143,7 @@ sup {
  */
 img {
   border-style: none;
+  display: block;
 }
 
 /* Forms
@@ -447,6 +448,10 @@ p {
   margin-right: 85px;
 }
 
+.logo-studio {
+  color: #000000;
+}
+
 .logo-web {
   font-family: Raleway;
   font-weight: 700;
@@ -570,6 +575,14 @@ p {
   letter-spacing: 0.06em;
   margin-top: 0px;
   margin-bottom: 30px;
+}
+
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+  height: 70px;
 }
 
 .about-us-list {
